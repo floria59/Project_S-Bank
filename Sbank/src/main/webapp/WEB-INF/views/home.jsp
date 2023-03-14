@@ -1,5 +1,4 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
@@ -18,7 +17,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		
 		<link rel="stylesheet"type = "text/css" href="${pageContext.request.contextPath}/resources/assets/css/main.css" />
-		<noscript><link rel="stylesheet" "text/css" href="${pageContext.request.contextPath}/resources/assets/css/noscript.css" /></noscript>
+		<noscript><linkrel="stylesheet" type ="text/css"  href="${pageContext.request.contextPath}/resources/assets/css/noscript.css" /></noscript>
 		
 	
 	<script>
@@ -54,15 +53,43 @@
 							<section id="login" class="main special">
 								<div class="spotlight">
 									<div class="content">
+						
 										<header class="major">
 											<h2>LOGIN</h2>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
+										
+										<div class="text-align: center">
+											<form id="loginForm" action="loginPost" method="post">
+												<div class="form-group row">
+													<label for="mem_id" class="col-sm-3 col-form-label">아이디</label>
+													<div>
+												      <input type="text" class="form-control" id="mem_id" name="mem_id" placeholder="아이디를 입력하세요" required>
+												    </div>
+												</div>
+												
+												<div class="form-group row">
+												    <label for="mem_pw" class="col-sm-3 col-form-label">비밀번호</label>
+												    <div >
+												      <input type="password" class="form-control" id="mem_pw" name="mem_pw" placeholder="비밀번호를  입력하세요" required>
+												    </div>
+												  </div>
+												  <br>
+												 <div class="form-group row">
+													  <div>
+													  <input type="submit"  value="LOGIN" class="button" id="btnLogin"> 
+													  
+													  </div>			
+												  </div>
+												  
+												  <div class=form-group mb-3>
+					                                <a href=#
+					                                id=btnLoginKakao onclick=addButtonLoader('#'+this.id); class="button">
+					                                    	카카오 아이디로 로그인
+					                                </a>
+                                				  </div>
+											  </form>
+										  </div>
+
 									</div>
 									
 								</div>
@@ -71,32 +98,19 @@
 						<!-- First Section -->
 							<section id="join" class="main special">
 								<header class="major">
-									<h2>JOIN</h2>
+									<h2>JOIN US</h2>
 								</header>
-								<ul class="features">
-									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
-							</section>
+								<div class="link-join">
+									<h style="font-size: medium">
+										아직 회원이아니세요? <br>
+										회원가입을 통해 즐거운 계모임을 시작해보세요🥰
+									</h>
+									<br><br>
+							        <a href="/member/join" class="button" >JOIN</a>
+							        <br><br>
+								</div>
 
+							</section>
 
 					</div>
 
