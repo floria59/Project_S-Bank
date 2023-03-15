@@ -6,7 +6,7 @@
 						
 						<p class="text-left text-light">
                            <small>
-                    			Copyright &copy;<script>document.write(new Date().getFullYear());</script> Leon All rights reserved 
+                    			Copyright &copy;<script>document.write(new Date().getFullYear());</script> S:Bank All rights reserved 
             				</small>
          				</p>
 					</footer>

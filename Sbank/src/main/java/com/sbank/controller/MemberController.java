@@ -38,7 +38,7 @@ public class MemberController {
 	private EmailService emailService;
 	
 	// 로그인폼
-	@GetMapping("/home")
+	@GetMapping("/login")
 	public void login() {
 		log.info("로그인 폼");
 	}
