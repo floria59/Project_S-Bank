@@ -68,6 +68,7 @@
 					    </div>
 					    	<label class="col-sm-2 col-form-label" style="display:none;" id="idCheckStatus">중복체크결과</label>
 					    </div>
+					    
 					  
 					  <div class="form-group row">
 					    <label for="mem_pw" class="col-sm-2 col-form-label" style= text-align:left>비밀번호</label>
