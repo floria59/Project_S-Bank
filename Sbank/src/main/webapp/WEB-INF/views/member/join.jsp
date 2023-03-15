@@ -58,79 +58,74 @@
 		  			<form id="joinForm" action="join" method="post">
 		  			
 			  			<div class="form-group row ">
-			    		<label for="mem_id" class="col-sm-2 col-form-label" style= text-align:right >아이디</label>
-			   			<div class="col-sm-10">
+			    		<label for="mem_id" class="col-3" style= "text-align:right;" >아이디</label>
+			   			<div class="col-4">
 			      			<input type="text" class="form-control"  id="mem_id" name="mem_id" placeholder="아이디를  15자이내로 입력하세요">
 			   			</div>
 			   			 
-					    <div class="col-sm-2">
-					      <button type="button" class="form-control btn btn-success" id="btnIDCheck" >ID중복체크</button>
+					    <div class="col-2">
+					      <button type="button" class="button fit small" id="btnIDCheck" >ID중복체크</button>
 					    </div>
-					    	<label class="col-sm-2 col-form-label" style="display:none;" id="idCheckStatus">중복체크결과</label>
+					    	<label class="col-3 " style="display:none;"  id="idCheckStatus">중복체크결과</label>
 					    </div>
 					    
 					  
 					  <div class="form-group row">
-					    <label for="mem_pw" class="col-sm-2 col-form-label" style= text-align:left>비밀번호</label>
-					    <div class="col-sm-10">
+					    <label for="mem_pw" class="col-3" style= "text-align:right;">비밀번호</label>
+					    <div class="col-4">
 					      <input type="password" class="form-control" id="mem_pw" name="mem_pw">
 					    </div>
 					  </div>
+					  
 					  <div class="form-group row">
-					    <label for="mem_pw_2" class="col-sm-2 col-form-label" style= text-align:left >비밀번호확인</label>
-					    <div class="col-sm-10">
+					    <label for="mem_pw_2" class="col-3 " style= "text-align:right;" >비밀번호확인</label>
+					    <div class="col-4">
 					      <input type="password" class="form-control" id="mem_pw_2">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group row">
-					    <label for="mem_name" class="col-sm-2 col-form-label" style= text-align:left>이름</label>
-					    <div class="col-sm-10">
+					    <label for="mem_name" class="col-3" style= "text-align:right;">이름</label>
+					    <div class="col-4">
 					      <input type="text" class="form-control" id="mem_name" name="mem_name">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group row">
-					    <label for="mem_nick" class="col-sm-2 col-form-label" style= text-align:left>닉네임</label>
-					    <div class="col-sm-10">
+					    <label for="mem_nick" class="col-3" style= "text-align:right;">닉네임</label>
+					    <div class="col-4">
 					      <input type="text" class="form-control" id="mem_nick" name="mem_nick">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group row">
-					    <label for="mem_email" class="col-sm-2 col-form-label" style= text-align:left>이메일</label>
-					    <div class="col-sm-10">
+					    <label for="mem_email" class="col-3" style= "text-align:right;">이메일</label>
+					    <div class="col-4">
 					      <input type="text" class="form-control" id="mem_email" name="mem_email">
 					    </div>
 					  </div>
 					  
 					  <div class="form-group row">
-					  	<label for="mem_authcode" class="col-sm-2 col-form-label" style= text-align:left>메일인증코드</label>
-					    <div class="col-sm-4">
+					  	<label for="mem_authcode" class="col-3" style= "text-align:right;">메일인증코드</label>
+					    <div class="col-4">
 					      <input type="text" class="form-control" id="mem_authcode" name="mem_authcode">
 					    </div>
-					    <div class="col-sm-3">
-					      <button type="button" class="form-control btn btn-success" id="btnAuthcode">메일인증요청</button>
+					    <div class="col-2">
+					      <button type="button" class="button fit small" id="btnAuthcode">메일인증요청</button>
 					    </div>
-					    <div class="col-sm-3">
-					      <button type="button" class="form-control btn btn-success" id="btnConfirmAuthcode" >메일인증확인</button>
+					    <div class="col-2">
+					      <button type="button" class="button fit small" id="btnConfirmAuthcode" >메일인증확인</button>
 					    </div>
 					  </div>
 					  
 					  <div class="form-group row">
-					    <label for="mem_phone" class="col-sm-2 col-form-label" style= text-align:left>휴대폰 번호</label>
-					    <div class="col-sm-10">
+					    <label for="mem_phone" class="col-3" style= "text-align:right;">휴대폰 번호</label>
+					    <div class="col-4">
 					      <input type="text" class="form-control" id="mem_phone" name="mem_phone">
 					    </div>
 					  </div>
 					  
-			 
-					  <div class="form-group row">
-					      <label class="form-check-label col-sm-2" for="mem_accept_e" style= text-align:left>메일 수신동의</label>
-						  <div class="col-sm-10 text-left">
-						  	<input class="form-check-input" type="checkbox" id="mem_accept_e" name="mem_accept_e">
-						  </div>			
-					  </div>
+		
 					  <br><br>
 					  <div class="form-group row">
 						  <div class="col-12">
@@ -140,14 +135,11 @@
 		 			</form>
 		
 				 </div>
+	
 				 </div>
-				 </div>
-				 </div>
-				 </div>
-				</div>
 			</section>
 		</div>
-	</div>
+
 		
 	  
 

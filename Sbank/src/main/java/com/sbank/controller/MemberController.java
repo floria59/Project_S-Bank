@@ -110,7 +110,7 @@ public class MemberController {
 					
 				String dest = (String) session.getAttribute("dest");
 				url = (dest != null) ? dest : "/";
-				msg = "로그인이 되었습니다.";
+				msg = "로그인 되었습니다.";
 					
 			}else { // 비번 불일치시
 				url = "/member/login";

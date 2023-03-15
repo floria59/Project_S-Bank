@@ -16,9 +16,9 @@ public class EmailDTO {
 		private String message;			// 본문
 		
 		public EmailDTO() {
-			this.senderName = "S:Bank";
-			this.senderMail = "S:Bank";
-			this.subject = "S:Bank 회원가입 메일 인증 코드입니다.";
+			this.senderName = "SBank";
+			this.senderMail = "SBank";
+			this.subject = "SBank 회원가입 메일 인증 코드입니다.";
 			this.message = "이메일 인증을 위한 인증코드를 확인하시고, 회원가입 인증코드 입력란에 입력하세요.";
 		}
 
