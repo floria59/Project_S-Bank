@@ -61,26 +61,29 @@
 										<div class="text-align: center">
 											<form id="loginForm" action="loginPost" method="post">
 												<div class="form-group row">
-													<label for="mem_id" class="col-sm-3 col-form-label">아이디</label>
-													<div>
+													<label for="mem_id" class="col-4" style= "text-align:right;">아이디</label>
+													<div class="col-4">
 												      <input type="text" class="form-control" id="mem_id" name="mem_id" placeholder="아이디를 입력하세요" required>
 												    </div>
 												</div>
 												
 												<div class="form-group row">
-												    <label for="mem_pw" class="col-sm-3 col-form-label">비밀번호</label>
-												    <div >
+												    <label for="mem_pw" class="col-4" style= "text-align:right;">비밀번호</label>
+												    <div class="col-4">
 												      <input type="password" class="form-control" id="mem_pw" name="mem_pw" placeholder="비밀번호를  입력하세요" required>
 												    </div>
 												  </div>
 												  <br>
-												 <div class="form-group row">
+												 <div class="form-group mb-3">
 													  <div>
 													  <input type="submit"  value="LOGIN" class="button" id="btnLogin"> 
 													  
 													  </div>			
 												  </div>
 												  
+												  <br>
+
+		
 												  <div class=form-group mb-3>
 					                                <a href=#
 					                                id=btnLoginKakao onclick=addButtonLoader('#'+this.id); class="button">
