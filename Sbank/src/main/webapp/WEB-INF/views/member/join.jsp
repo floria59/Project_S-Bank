@@ -55,20 +55,19 @@
 					</header>
 					<br>
 				
-					<div class="mb-2 text-center">
 		  			<form id="joinForm" action="join" method="post">
 		  			
 			  			<div class="form-group row ">
-			    			<label for="mem_id" class="col-6" style= text-align:left >아이디</label>
+			    		<label for="mem_id" class="col-sm-2 col-form-label" style= text-align:right >아이디</label>
 			   			<div class="col-sm-10">
 			      			<input type="text" class="form-control"  id="mem_id" name="mem_id" placeholder="아이디를  15자이내로 입력하세요">
-			   			 </div>
+			   			</div>
 			   			 
-					    <div class="col-sm-3">
+					    <div class="col-sm-2">
 					      <button type="button" class="form-control btn btn-success" id="btnIDCheck" >ID중복체크</button>
 					    </div>
-					    <label class="col-sm-2 col-form-label" style="display:none;" id="idCheckStatus">중복체크결과</label>
-					  </div>
+					    	<label class="col-sm-2 col-form-label" style="display:none;" id="idCheckStatus">중복체크결과</label>
+					    </div>
 					  
 					  <div class="form-group row">
 					    <label for="mem_pw" class="col-sm-2 col-form-label" style= text-align:left>비밀번호</label>
